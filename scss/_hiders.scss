@@ -1,0 +1,30 @@
+.read-more-state {
+    display: none;
+  }
+  
+  .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+  }
+  
+  .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: 1rem;
+    max-height: 999em;
+  }
+  
+  .read-more-state ~ .read-more-trigger:before {
+    content: 'Show more';
+  }
+  
+  .read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Show less';
+  }
+  
+  .read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    z-index: 1000;
+  }
