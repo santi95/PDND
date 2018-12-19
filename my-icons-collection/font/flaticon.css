@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 05/10/2018 04:12
+  	Creation date: 18/12/2018 18:25
   	*/
 
 @font-face {
@@ -24,18 +24,27 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 50px;
+  font-size: 50px;
 font-style: normal;
-margin-left: 0px;
 }
 
-.flaticon-ship:before { content: "\f100";
- }
-.flaticon-agenda:before { content: "\f101";
- }
-.flaticon-insurance:before { content: "\f102";
- }
-.flaticon-lawyer:before { content: "\f103";
- }
-.flaticon-buyer:before { content: "\f104";
- }
+.flaticon-transporte:before { content: "\f100"; }
+.flaticon-laboral:before { content: "\f101"; }
+.flaticon-derecho-seguros:before { content: "\f102"; }
+.flaticon-responsabilidad:before { content: "\f103"; }
+.flaticon-consumidor:before { content: "\f104"; }
+.flaticon-litigios:before { content: "\f105"; }
+.flaticon-seguros:before { content: "\f106"; }
+.flaticon-proteccion:before { content: "\f107"; }
+.flaticon-construccion:before { content: "\f108"; }
+.flaticon-corporativo:before { content: "\f109"; }
+.flaticon-competencia:before { content: "\f10a"; }
+
+
+.mobileIcon [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-size: 30px;
+  color: silver;
+font-style: normal;
+}

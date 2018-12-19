@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 05/10/2018 04:12
+    Creation date: 18/12/2018 18:25
     */
 
     @font-face {
@@ -36,14 +36,26 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-ship:before { content: "\f100"; }
-.flaticon-agenda:before { content: "\f101"; }
-.flaticon-insurance:before { content: "\f102"; }
-.flaticon-lawyer:before { content: "\f103"; }
-.flaticon-buyer:before { content: "\f104"; }
+    .flaticon-transporte:before { content: "\f100"; }
+.flaticon-laboral:before { content: "\f101"; }
+.flaticon-derecho-seguros:before { content: "\f102"; }
+.flaticon-responsabilidad:before { content: "\f103"; }
+.flaticon-consumidor:before { content: "\f104"; }
+.flaticon-litigios:before { content: "\f105"; }
+.flaticon-seguros:before { content: "\f106"; }
+.flaticon-proteccion:before { content: "\f107"; }
+.flaticon-construccion:before { content: "\f108"; }
+.flaticon-corporativo:before { content: "\f109"; }
+.flaticon-competencia:before { content: "\f10a"; }
     
-    $font-Flaticon-ship: "\f100";
-    $font-Flaticon-agenda: "\f101";
-    $font-Flaticon-insurance: "\f102";
-    $font-Flaticon-lawyer: "\f103";
-    $font-Flaticon-buyer: "\f104";
+    $font-Flaticon-transporte: "\f100";
+    $font-Flaticon-laboral: "\f101";
+    $font-Flaticon-derecho-seguros: "\f102";
+    $font-Flaticon-responsabilidad: "\f103";
+    $font-Flaticon-consumidor: "\f104";
+    $font-Flaticon-litigios: "\f105";
+    $font-Flaticon-seguros: "\f106";
+    $font-Flaticon-proteccion: "\f107";
+    $font-Flaticon-construccion: "\f108";
+    $font-Flaticon-corporativo: "\f109";
+    $font-Flaticon-competencia: "\f10a";

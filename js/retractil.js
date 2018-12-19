@@ -52,7 +52,7 @@ jQuery(document).ready(function ($) {
 });
 
 jQuery(document).ready(function ($) {
-
+  
   $("#toggle4").click(function () {
     $("#wrap4").slideToggle("normal");
 

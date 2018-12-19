@@ -16,16 +16,37 @@ $breakpoint-xs-landscape: 'only screen and (min-width:480px) and (max-width:767p
     }
 }
 
-.tituloPrincipal{
+.tituloPrincipal {
+  margin-top: 30%;
+  margin-left: 64.9%;
   color: white;
   width: 100%;
-  font-size: 600%;}
+  font-size: 600%; }
 
-.maxBig{
-    max-height: 750px;
-}
+@media (max-width: 1660px) {
+    .tituloPrincipal {
+      color: white;
+      width: 100%;
+      font-size: 600%;
+      margin-top: 30%;
+      margin-left: 35%;
+       } }
 
-  @media (max-width: 480px) {
+@media (max-width: 768px) {
+.tituloPrincipal {
+  color: white;
+  width: 100%;
+  font-size: 500%;
+  margin-top: 62%;
+  margin-left: 0px;
+    } }
+
+@media (max-width: 480px) {
+
+  .maxBig {
+    max-height: 42rem; }
+
+
     .tituloPrincipal{
       color: white;
       width: 100%;
@@ -42,4 +63,12 @@ $breakpoint-xs-landscape: 'only screen and (min-width:480px) and (max-width:767p
     width: 100%;
     font-size: 400%;}
 
+}
+
+#BannerAboutUs{
+  background-size: 100%;
+}
+
+#nuestroEquipo{
+  margin-top: 50%;
 }

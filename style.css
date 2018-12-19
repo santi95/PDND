@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 @import url(css/bootstrap.min.css);
 @import url(css/classy-nav.css);
 @import url(css/owl.carousel.min.css);
@@ -11,14 +12,31 @@
     display: none; } }
 
 .tituloPrincipal {
+  margin-top: 30%;
+  margin-left: 64.9%;
   color: white;
   width: 100%;
   font-size: 600%; }
 
-.maxBig {
-  max-height: 750px; }
+@media (max-width: 1660px) {
+  .tituloPrincipal {
+    color: white;
+    width: 100%;
+    font-size: 600%;
+    margin-top: 30%;
+    margin-left: 35%; } }
+
+@media (max-width: 768px) {
+  .tituloPrincipal {
+    color: white;
+    width: 100%;
+    font-size: 500%;
+    margin-top: 62%;
+    margin-left: 0px; } }
 
 @media (max-width: 480px) {
+  .maxBig {
+    max-height: 42rem; }
   .tituloPrincipal {
     color: white;
     width: 100%;
@@ -31,6 +49,12 @@
     color: white;
     width: 100%;
     font-size: 400%; } }
+
+#BannerAboutUs {
+  background-size: 100%; }
+
+#nuestroEquipo {
+  margin-top: 50%; }
 
 .read-more-state {
   display: none; }
@@ -163,6 +187,134 @@
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto; } }
+
+body {
+  position: relative; }
+
+.grid {
+  list-style: none;
+  margin-left: -40px; }
+
+.gc {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: -.25em;
+  min-height: 1px;
+  padding-left: 40px;
+  vertical-align: top; }
+
+.gc--1-of-3 {
+  width: 33.33333%; }
+
+.gc--2-of-3 {
+  width: 66.66666%; }
+
+.naccs {
+  position: relative;
+  max-width: 900px;
+  margin: 100px auto 0;
+  margin-top: 0px;
+  font-size: 16px; }
+
+.naccs .menu div {
+  padding: 15px 20px 15px 40px;
+  margin-bottom: 10px;
+  color: #F5F5F5;
+  background: #086a8f;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+  font-weight: 100;
+  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1); }
+
+.naccs .menu div:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+
+.naccs .menu div span.light {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 24px;
+  left: 15px;
+  background-color: #F5F5F5;
+  border-radius: 100%;
+  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1); }
+
+.naccs .menu div.active span.light {
+  background-color: white;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  top: 0;
+  border-radius: 0; }
+
+.naccs .menu div.active {
+  color: white;
+  padding: 15px 20px 15px 20px;
+  background-color: #05516d; }
+
+ul.nacc {
+  position: relative;
+  height: 0px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  vertical-align: middle; }
+
+ul.nacc li {
+  opacity: 0;
+  transform: translateX(50px);
+  position: absolute;
+  overflow: hidden;
+  list-style: none;
+  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  display: table-cell; }
+
+ul.nacc li div {
+  vertical-align: middle;
+  display: table-cell; }
+
+ul.nacc li.active {
+  transition-delay: .3s;
+  z-index: 2;
+  opacity: 1;
+  transform: translateX(0px); }
+
+ul.nacc li p {
+  margin: 0;
+  text-align: justify; }
+
+.naccs .menu div .mobileIcon {
+  display: none;
+  font-size: 10px; }
+
+@media (max-width: 480px) {
+  .gc {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: -2.25em;
+    min-height: 1px;
+    padding-left: 40px;
+    vertical-align: top; }
+  .naccs .menu div span {
+    display: none; }
+  .naccs .menu div .mobileIcon {
+    display: contents !important;
+    font-size: 10px; }
+  .naccs .menu div {
+    padding: 1px 1px 1px 20px;
+    margin-bottom: 10px;
+    color: grey;
+    background: #086a8f;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+    vertical-align: middle;
+    font-weight: 100;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 70px; } }
 
 @font-face {
   font-family: 'FuturaLT-Book';
@@ -589,7 +741,6 @@ img {
         .header-area .palatin-main-menu .classy-navbar .nav-brand {
           max-width: 140px; } }
       .header-area .palatin-main-menu .classy-navbar .classynav ul li a {
-        text-transform: capitalize;
         color: #ffffff;
         font-size: 16px;
         background-color: transparent; }
