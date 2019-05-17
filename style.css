@@ -30,7 +30,7 @@
   .tituloPrincipal {
     color: white;
     width: 100%;
-    font-size: 500%;
+    font-size: 4rem;
     margin-top: 62%;
     margin-left: 0px; } }
 
@@ -40,9 +40,12 @@
   .tituloPrincipal {
     color: white;
     width: 100%;
-    font-size: 500%; }
+    margin-top: 85%;
+    font-size: 3rem; }
   .maxBig {
-    max-height: 500px; } }
+    max-height: 500px; }
+  .cardContainer h3 {
+    font-size: large; } }
 
 @media (max-width: 300px) {
   .tituloPrincipal {
@@ -55,6 +58,9 @@
 
 #nuestroEquipo {
   margin-top: 50%; }
+
+.logo {
+  width: 295px; }
 
 .read-more-state {
   display: none; }
@@ -269,8 +275,7 @@ ul.nacc li {
   position: absolute;
   overflow: hidden;
   list-style: none;
-  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-  display: table-cell; }
+  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1); }
 
 ul.nacc li div {
   vertical-align: middle;
@@ -284,7 +289,7 @@ ul.nacc li.active {
 
 ul.nacc li p {
   margin: 0;
-  text-align: justify; }
+  text-align: left; }
 
 .naccs .menu div .mobileIcon {
   display: none;
@@ -736,10 +741,10 @@ img {
           height: 70px; } }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .header-area .palatin-main-menu .classy-navbar .nav-brand {
-          max-width: 140px; } }
+          max-width: 140px !important; } }
       @media only screen and (max-width: 767px) {
         .header-area .palatin-main-menu .classy-navbar .nav-brand {
-          max-width: 140px; } }
+          max-width: 140px !important; } }
       .header-area .palatin-main-menu .classy-navbar .classynav ul li a {
         color: #ffffff;
         font-size: 16px;
@@ -879,7 +884,7 @@ img {
       height: 750px; } }
   @media only screen and (max-width: 767px) {
     .single-hero-slide {
-      height: 750px; } }
+      height: 550px; } }
   .single-hero-slide .slide-img {
     position: absolute;
     width: 100%;
@@ -1765,7 +1770,8 @@ img {
 .cardContainer {
   padding: 2px 2px;
   width: 300px !important;
-  display: -webkit-box; }
+  display: -webkit-box;
+  cursor: pointer; }
 
 .menosPad {
   padding: 70px 0px; }

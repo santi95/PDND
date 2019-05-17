@@ -532,10 +532,10 @@ img {
             }
             .nav-brand {
                 @media #{$breakpoint-lg} {
-                    max-width: 140px;
+                    max-width: 140px !important;
                 }
                 @media #{$breakpoint-xs} {
-                    max-width: 140px;
+                    max-width: 140px !important;
                 }
             }
             .classynav ul li a {
@@ -696,7 +696,7 @@ img {
         height: 750px;
     }
     @media #{$breakpoint-xs} {
-        height: 750px;
+        height: 550px;
     }
     .slide-img {
         position: absolute;
@@ -1730,6 +1730,7 @@ img {
     padding: 2px 2px;
     width: 300px !important;
     display: -webkit-box;
+    cursor: pointer;
 }
 
 .menosPad{

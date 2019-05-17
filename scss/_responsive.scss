@@ -36,7 +36,7 @@ $breakpoint-xs-landscape: 'only screen and (min-width:480px) and (max-width:767p
 .tituloPrincipal {
   color: white;
   width: 100%;
-  font-size: 500%;
+  font-size: 4rem;
   margin-top: 62%;
   margin-left: 0px;
     } }
@@ -50,11 +50,17 @@ $breakpoint-xs-landscape: 'only screen and (min-width:480px) and (max-width:767p
     .tituloPrincipal{
       color: white;
       width: 100%;
-      font-size: 500%;}
+      margin-top: 85%;
+      font-size: 3rem;
+    }
   
     .maxBig{
       max-height: 500px;
     }
+
+    .cardContainer h3{
+      font-size: large;
+  }
 }
 
 @media (max-width: 300px) {
@@ -71,4 +77,8 @@ $breakpoint-xs-landscape: 'only screen and (min-width:480px) and (max-width:767p
 
 #nuestroEquipo{
   margin-top: 50%;
+}
+
+.logo{
+  width: 295px;
 }
